@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+body {
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  font-family: sen;
+}
+.abs {
+  padding: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.abs2 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(187, 98, 30);
+  padding: 5%;
+}
+.abs2 h2 {
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+}
+.abs h5 {
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+.fm label {
+  font-family: sen;
+  font-weight: bold;
+  font-size: medium;
+}
+.fm input {
+  font-size: small;
+}
+
+#q {
+  background-color: blue;
+  position: relative;
+  z-index: 1;
+  margin: auto;
+  color: black;
+}
+
+#hd {
+  font-size: min(5vw, 50px);
+  color: white;
+  margin-top: 30vh;
+  font-family: sen;
+}
+
+#head {
+  font-size: 35px;
+}
+
+.form {
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+#q1 {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+#q2 {
+  padding-bottom: 5vh;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1531683760080-7bb28a630bd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBpY2t1cCUyMHRydWNrJTIwaW1hZ2VzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=100");
+}
+#afterimg {
+  background-color: black;
+}
+h3 {
+  padding: 20px;
+}
+.form h2 {
+  color: white;
+  font-weight: bold;
+}
+.form h4 {
+  color: white;
+  font-weight: bold;
+}
+.dv2 {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+.dv3 {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.dv4 {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
